@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.holder{
+	/* min-height:100px; */
+	/* width:100px; */
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	grid-template-rows:60px 50fr;
+	/* align-items:start; */
+	/* gap:10px; */
+	/* border:1px solid black; */
+
+	}
+.item{
+	align-content:center;
+	background-color:green;
+}
+.c{
+	background-color:green;
+	order:-1
+}
+.a{
+	background-color:red;
+	}
+.b{background-color:blue;
+   order:1;
+   display:flex-end;
+   justify-content:center;
+   align-items:center;
+   width:100%;
+  
+  }
