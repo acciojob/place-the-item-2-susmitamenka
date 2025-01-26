@@ -1,18 +1,21 @@
 
 /* Your CSS Code here. */
 .holder{
-	/* min-height:100px; */
-	/* width:100px; */
-	display:grid;
-	grid-template-columns:repeat(6,1fr);
-	grid-template-rows:60px 50fr;
+	min-height:100px; */
+	 width:100px; 
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+	/* grid-template-columns:repeat(6,1fr); */
+	/* grid-template-rows:60px 50fr; */
 	/* align-items:start; */
 	/* gap:10px; */
 	/* border:1px solid black; */
 
 	}
 .item{
-	align-content:center;
+	/* align-content:center; */
 	background-color:green;
 }
 .c{
@@ -24,8 +27,8 @@
 	}
 .b{background-color:blue;
    order:1;
-   display:flex-end;
-   justify-content:center;
+   display:flex;
+   justify-content:flex-end;
    align-items:center;
    width:100%;
   
